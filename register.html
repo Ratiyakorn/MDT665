@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>register</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+	<script src='register.js'></script>
+</head>
+<body>
+	<div class="grid-container">
+		<div id="header">
+            <form name="myForm" id="myForm" action="login.html">
+				<fieldset>
+					<legend>Register</legend>
+					<span>* require</span> <br>	
+					<span id="errormsg"></span> <br>
+					<h3>
+						First name*:
+						<input type="text" name="firstname" required>
+					</h3> 
+
+					<h3>
+						Last name*: 
+						<input type="text" name="lastname" >
+					</h3>
+
+					<h3>
+						Gender*:
+						<input type="radio" name="gender" value="male" >Male
+						<input type="radio" name="gender" value="female" >Female
+						<input type="radio" name="gender" value="female" >Other
+					</h3>
+
+					<h3>
+						Birthday*: 
+						<input type="date" name="bday" value="" >
+					</h3>
+
+					<h3>
+						Email address*: 
+						<input type="email" name="email" >
+					</h3>
+
+					<h3>
+						Username*: 
+						<input type="text" name="username" >
+					</h3>
+
+					<h3>
+						Password*: 
+						<input type="password" name="password1" required>
+					</h3>
+
+					<h3>
+						Retype Password*:
+						<input type="password" name="password2" required>
+					</h3> 
+					
+					<input type="submit" value="Register">
+					<input type="reset" value="Reset">					
+					
+				</fieldset>
+
+			</form>
+        </div>
+	</div>
+
+</body>
+</html>
